@@ -6,4 +6,4 @@ The necessary data is hosted separately in the [Joint Research Centre Data Catal
 
 # References
 
-[1] Ismael Medina, Ewan Dunlop, Ana Martinez, "Parametric and distribution-based definition of climatic zones for PV.
+[1] Ismael Medina, Ewan Dunlop, Ana Martinez, "Parametric and distribution-based definition of climatic zones for PV."
