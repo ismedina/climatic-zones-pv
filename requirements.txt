@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+POT
+reverse_geocoder
+scikit-learn

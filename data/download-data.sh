@@ -1,5 +1,15 @@
-# The data is currently in the process of publication in the 
-# JRC Data Catalogue: https://data.jrc.ec.europa.eu/
-# As soon as it is available we will update this script. 
+# This script automatizes the download of the data, contained in the JRC Data Catalogue.
 
-# TODO
+baseurl="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/PVGIS"
+subdir="climatic-zones-pv"
+
+echo "Downloading copyright notice"
+wget "$baseurl/copyright.txt" -O "copyright.txt"
+
+mkdir -p "$subdir"
+
+for file in  "dataset_description.md" "means-global.csv" "means-europe.csv" "icdf-daily-G-europe.pickle" "icdf-daily-G-global.pickle" "icdf-daily-suff-europe.pickle" "icdf-daily-suff-global.pickle"; 
+do
+    echo "Downloading $file"
+    wget "$baseurl/$subdir/$file" -O "$subdir/$file"
+done
