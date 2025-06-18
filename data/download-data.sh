@@ -1,4 +1,4 @@
-# This script automatizes the download of the data, contained in the JRC Data Catalogue.
+# This script handles the download of the geospatial data, hosted in the JRC Data Catalogue.
 
 baseurl="https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/PVGIS"
 subdir="climatic-zones-pv"
